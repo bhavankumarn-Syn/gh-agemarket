@@ -1,0 +1,65 @@
+.pageMainDiv{
+    margin-top: 120px;
+}
+.configSidebarDiv{
+    .agentConfigMenu{
+        .ant-menu-submenu-title{
+            background: #EDF5FF;
+            font-size: 20px;
+            padding: 6px 14px;
+            height: auto;
+            span{
+                font-weight: 700;
+                color: #0169EF;
+            }
+        }
+        .ant-menu-item{
+            background-color: #EDF5FF;
+            color: #0169EF;
+            font-size: 20px;
+            padding: 10px;
+            height: auto;
+            span{
+                color: #0169EF;
+                font-weight: 700;
+            }
+        }
+        .ant-menu-submenu{
+            .ant-menu-item{
+                padding: 0px !important;
+                background-color: #ffffff;
+                margin-bottom: 10px;
+            }
+        }
+        .ant-menu-submenu-open{
+            .ant-menu-submenu-title{           
+                 background-color: #0169EF;
+                 color: #ffffff;
+                 span{
+                    color: #ffffff;
+                 }
+            }
+        }
+        .ant-menu-submenu{
+            background-color: #EDF5FF;
+            .ant-menu-sub{
+                padding: 10px;
+            }
+            .ant-menu-item {
+                .ant-menu-title-content{
+                    font-size: 18px;
+                    font-weight: 500;
+                    padding: 10px;
+                }
+            }
+            
+        }
+        .ant-menu-item-selected{
+                background: linear-gradient(90deg, #9F4DFF 0%, #046AF0 100%);
+                color: #ffffff;
+                .ant-menu-title-content{
+                    color: #ffffff;
+                }
+            }
+    }
+}

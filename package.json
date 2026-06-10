@@ -1,0 +1,51 @@
+{
+  "name": "agent-market",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.6.1",
+    "@aws-amplify/ui-react": "^6.13.2",
+    "@aws-sdk/client-kms": "^3.965.0",
+    "@reduxjs/toolkit": "^2.12.0",
+    "@stripe/react-stripe-js": "^5.6.1",
+    "@stripe/stripe-js": "^8.9.0",
+    "antd": "^5.24.6",
+    "apexcharts": "^5.10.4",
+    "aws-amplify": "^6.15.9",
+    "axios": "^1.10.0",
+    "crypto-js": "^4.2.0",
+    "jwt-decode": "^4.0.0",
+    "mixpanel-browser": "^2.75.0",
+    "react": "^19.0.0",
+    "react-apexcharts": "^2.1.0",
+    "react-dom": "^19.0.0",
+    "react-gtm-module": "^2.0.11",
+    "react-redux": "^9.3.0",
+    "react-router-dom": "^7.4.1",
+    "sass": "^1.86.0",
+    "tailwindcss": "^4.1.5",
+    "wallet-sdk": "git+https://maclich:glpat-86hjkuGwVzBf_6JxUAjGwFgN9Zv@git.netobjex.com/unifygpt/blockchain/sdks/wallet-sdk.git#v1.2.0.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^25.0.3",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.2.0",
+    "vite-plugin-node-polyfills": "^0.24.0"
+  }
+}

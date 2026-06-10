@@ -1,0 +1,30 @@
+.stripe-checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 0;
+
+  label {
+    font-weight: 500;
+    color: #333;
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input[disabled] {
+    background-color: #f5f5f5;
+    color: #666;
+    cursor: not-allowed;
+  }
+
+  form-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+
+    button {
+      flex: 1;
+    }
+  }
+}

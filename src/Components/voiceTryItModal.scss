@@ -1,0 +1,87 @@
+
+  .ant-modal-content{
+    border-radius: 20px !important;
+  }
+  .ant-modal-close-x{
+    border: 2px solid #696969;
+    color: #696969;
+    border-radius: 50%;
+    padding: 0;
+    .ant-modal-close-x{
+      line-height: 0 !important;
+    }
+  }
+  .avatarTryModalHeader{
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    .modalHeader{
+      h4{
+        margin: 0;
+        color: #31154E;
+        font-size: 20px;
+        font-weight: 700;
+      }
+      .label {
+        color: #5f4b8b;
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+  }
+  .subscribe-button-wrapper {
+  
+    .subscribe-button {
+      background-color: #0169EF;
+      border: none;
+      padding: 6px 16px;
+      font-weight: 600;
+      border-radius: 50px;
+      height: auto;
+      color: #ffffff;
+      padding: 10px 22px;
+      span{
+        color: #ffffff;
+      }
+  
+      &:hover {
+        background-color: #0057d9 !important;
+      }
+    }
+  }
+  
+  
+  .phone-section {
+    margin: 50px 0 70px;
+    text-align: center;
+  
+    .subtext {
+      font-size: 14px;
+      color: #222;
+      margin-bottom: 8px;
+      display: block;
+    }
+  
+    .phone-wrapper {
+      justify-content: center;
+      gap: 8px;
+  
+      .phone-number {
+        font-size: 36px;
+        font-weight: 600;
+        color: #2e1f4f;
+        margin: 0;
+      }
+  
+      .copy-icon {
+        font-size: 18px;
+        color: #666;
+        cursor: pointer;
+  
+        &:hover {
+          color: #000;
+        }
+      }
+    }
+  }
+  
