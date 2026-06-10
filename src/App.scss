@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+body,
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+// body{
+//   padding-top: 90px; //For sticky header
+// }
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(94.11deg, #0169EF 0.94%, #A14CFF 57.81%, #4CC3FF 98.93%);
+  color: white !important;
+}
+
+.btn-primary:hover {
+  background-color: #3A56D4;
+}
+.ant-btn-primary{
+  color: #ffffff;
+  svg{
+    color: #ffffff;
+  }
+  span{
+    color: #ffffff;
+  }
+}
+.centerBox{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main{
+  background: url(./assets/InnerPage_head_bg.png) no-repeat top center;
+  background-size: 100% 450px;
+  min-height: 100vh;
+  > section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    &.fullWidth {
+      width: 100%; 
+      max-width: 100%;
+      > *{
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+h2{
+  font-size: 32px;
+  color: #31154E;
+}
+p{
+  font-size: 17px;
+  color: #696969;
+  padding-top: 10px;
+}
+.agentShopIcon{
+ position: relative;
+ .agentFly{
+  position: absolute;
+  right: 0;
+  top: -100px;
+  background: url('./assets/agent_shopping.png') no-repeat center center;
+  width: 240px;
+  height: 150px;
+ }
+}
+
+@media screen and (max-width: 768px) {
+  .centerBox{
+    padding: 0 18px;
+  }
+  .agentShopIcon .agentFly{
+      width: 150px;
+      height: 100px;
+    top: -60px;
+    background-size: cover !important;
+  }
+}
+

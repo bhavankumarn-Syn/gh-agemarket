@@ -1,0 +1,44 @@
+.avatar-modal-wrapper{
+    height: 90vh;
+    .ant-modal-body{
+        height: 100%;
+    }
+    .ant-modal-body{
+        height: 100%;
+    }
+    .avatarModelContent{
+        height: 80%;
+        .avatarHeading{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            margin-top: -22px;
+            margin-bottom: 20px;
+            h4{
+                color: #31154E;
+                font-size: 20px;
+                font-weight: 700;
+                margin: 0;
+             }
+             p{
+                color: #31154E;
+                font-size: 16px;
+                margin-bottom: 0;
+             }
+        }
+        .iframeDiv{
+            height: 100%;
+            iframe{
+                height: 82vh !important;
+            }
+        }
+    }
+}
+.ant-modal{ 
+    .ant-modal-close-x{
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+    }
+}

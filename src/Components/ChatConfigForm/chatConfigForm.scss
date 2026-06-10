@@ -1,0 +1,27 @@
+
+.chatForm{
+    width: 55%;
+    margin: auto;
+}
+.formTitle{
+    color: #0169EF;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.copyBtn{
+    text-align: right;
+    button{
+        background-color: #0169EF;
+        color: #ffffff;
+        border-radius: 27px;
+        padding: 10px 22px;
+        height: auto;
+        font-size: 16px;
+        font-weight: 600;
+        svg{
+            fill: #ffffff;
+        }
+    }
+}

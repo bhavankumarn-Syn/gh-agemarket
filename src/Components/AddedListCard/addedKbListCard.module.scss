@@ -1,0 +1,100 @@
+.cardContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 13px 1px rgba(0, 0, 0, 0.17);
+  padding: 16px;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.iconContainer {
+  width: 36px;
+  height: 36px;
+  background-color: #d7c9ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+
+  img {
+    margin-top: 2px;
+  }
+}
+
+
+.content {
+  flex-grow: 1;
+}
+
+.title {
+  font-weight: 500;
+  color: #0169EF;
+  font-size: 22px;
+  margin-bottom: 9px;
+}
+
+.subtitle {
+  color: #576574;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 7px;
+  display: inline-block;
+  width: 100%;
+}
+
+.divider {
+  border-top: 1px solid #e0e0e0;
+  margin: 12px 0;
+}
+
+.kbCardfooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -5px;
+
+  .learnAt {
+    font-size: 14px;
+    font-weight: 500;
+    color: #999999;
+  }
+}
+
+.editButton {
+  background-color: #0169EF;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: auto;
+  height: auto;
+  font-size: 16px;
+}
+
+.editIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.editIconComp {
+  svg {
+    fill: #ffffff !important;
+  }
+}

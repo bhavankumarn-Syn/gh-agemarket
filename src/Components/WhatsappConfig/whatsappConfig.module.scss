@@ -1,0 +1,64 @@
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0060e6;
+    margin-bottom: 40px;
+}
+
+.whatsappCard {
+    background-color: #f5f5f5;
+    border-radius: 16px;
+    padding: 40px 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 60%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.whatsappLogo {
+    margin-bottom: 5px;
+}
+
+.description {
+    font-size: 12px;
+    color: #5F5F5F;
+}
+
+.loginLabel {
+    margin-top: 48px;
+    font-size: 14px;
+    color: #282828;
+    font-weight: 500;
+}
+
+.loginOptions {
+    display: flex;
+    gap: 24px;
+    margin-top: 16px;
+
+    .loginIconDiv {
+        background: white;
+        box-shadow: 0px 0px 6.9px 0px #00000040;
+        cursor: pointer;
+        transition: transform 0.2s;
+        width: 74px;
+        height: 74px;
+        border-radius: 50%;
+        padding: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            max-width: 100%;
+        }
+    }
+
+}

@@ -1,0 +1,58 @@
+.pageHeading {
+    color: #0169EF;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.knowledgeBaseContent {
+    margin-top: 5rem;
+    text-align: center;
+
+    button {
+        background-color: #0169EF;
+        color: #ffffff;
+        border-radius: 27px;
+        padding: 10px 22px;
+        height: auto;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 20px;
+
+        &:hover {
+            background-color: #0169EF !important;
+        }
+
+        span {
+            color: #ffffff;
+        }
+
+        svg {
+            fill: #ffffff !important;
+        }
+    }
+}
+
+.addedKbList {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.showKbList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin-bottom: 3rem;
+
+    p {
+        display: none;
+    }
+
+    .knowledgeBaseContent {
+        margin-top: 0;
+    }
+}
+

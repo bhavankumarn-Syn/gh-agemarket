@@ -1,0 +1,76 @@
+
+
+/* LogoCarousel.css */
+
+.logo-carousel-container {
+    width: 100%;
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    overflow: hidden;
+  }
+  
+  .carousel-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: #2d1d42;
+    margin-bottom: 30px;
+    padding: 0 20px;
+  }
+  
+  .logo-carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+  }
+  
+  .logo-track {
+    display: flex;
+    animation: scroll 50s linear infinite;
+    width: fit-content;
+  }
+  
+  .logo-track:hover {
+    animation-play-state: paused;
+  }
+  
+  .logo-item {
+    flex-shrink: 0;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-item img {
+    height: 60px;
+    width: auto;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+  
+  .logo-item img:hover {
+    opacity: 1;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      /* This value should be adjusted based on the total width of your logos */
+      transform: translateX(-50%);
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .logo-item {
+      padding: 0 20px;
+    }
+    
+    .logo-item img {
+      height: 40px;
+    }
+  }
